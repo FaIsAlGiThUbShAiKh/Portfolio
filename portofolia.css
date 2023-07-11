@@ -1,0 +1,484 @@
+body,p
+{
+    padding: 0;
+    margin: 0;
+}
+.main_container
+{
+    width: 100%;
+    padding: 20px;
+    background-color:forestgreen;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+}
+.left_container
+{
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-left: 8%;
+    box-sizing: border-box;
+}
+.logo
+{
+    width: 50%;
+    height: 70px;
+    margin-left: 25%;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+.logo1
+{
+    width: 21%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 2%;
+    text-align: center;
+}
+.cn
+{
+    color: darkgreen;
+    font-size: 50px;
+}
+.logo_sentence
+{
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 2px dotted black;
+    margin-bottom: 10px;
+}
+.logo_sentence1
+{
+    width: 100%;
+    font-size: 20px;
+    float: left;
+}
+ul li a::before
+{
+    color: indigo;
+}
+ul li:hover, ul li a:hover, ul li a:link
+{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.news
+{
+    width: 100%;
+    padding: 5px;
+    float: left;
+    box-sizing: border-box;
+    border-top: 2px dotted black;
+}
+.news_sentence
+{
+    width: 100%;
+    color:darkolivegreen;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 10px;
+}
+.lorem_box
+{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.lorem_heading1
+{
+    width: 100%;
+    color: dodgerblue;
+    margin-bottom: 3px;
+}
+.lorem_sentence1
+{
+    width: 100%;
+    color: deepskyblue;
+    float: left;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.lorem_box2
+{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.lorem_heading2
+{
+    width: 100%;
+    color: dodgerblue;
+}
+.lorem_sentence2
+{
+    width: 100%;
+    color: deepskyblue;
+    float: left;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.left_bottom
+{
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.left_bottom1
+{
+    color: whitesmoke;
+    float: left;
+}
+.left_bottom_box
+{
+    width: 5%;
+    padding: 2px;
+    float: right;
+}
+.left_bottom_arrow
+{
+    color: whitesmoke;
+}
+.left_bottom1 a, .left_bottom_arrow a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.middle_container
+{
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+}
+.middle_heading1_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border-bottom: 2px dotted black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+.middle_heading1
+{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: darkolivegreen;
+}
+.middle_image1_box
+{
+    width: 100%;
+    padding: 5px;
+    /* background-color: darksalmon; */
+    box-sizing: border-box;
+    float: left;
+}
+.img
+{
+    border-radius: 20px;
+}
+.middle_para1_box
+{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: dotted;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.middle_para1
+{
+    color: indigo;
+    text-align: justify;
+}
+.hey
+{
+    font-size: 30px;
+}
+
+.middle_image2_box
+{
+    width: 28%;
+    padding: 2px;
+    height: 280px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 30px;
+}
+.middle_image2
+{
+    width: 100%;
+}
+.middle_heading2_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.middle_heading2
+{
+    font-size: 25px;
+    color: darkolivegreen;
+}
+.middle_para2_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.middle_para2
+{
+    color: indigo;
+    text-align: justify;
+}
+.middle_image3_box
+{
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.middle_image3
+{
+    border-left: dotted;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+.middle_image4_box
+{
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.middle_image4
+{
+    border-left: dotted;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+.middle_image5_box
+{
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.middle_image5
+{
+    border-left: dotted;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+.middle_bottom
+{
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.middle_bottom_sentence
+{
+    width: 70%;
+    float: left;
+}
+.bottom1 a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.middle_bottom_arrowbox
+{
+    width: 2%;
+    padding: 2px;
+    float: right;
+    box-sizing: border-box;
+}
+.right_container
+{
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+}
+.right_heading1_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border-bottom: 2px dotted black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.right_heading1
+{
+    color: darkolivegreen;
+    font-size: 30px;
+}
+.right_image1_box
+{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.right_image2_box
+{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.right_click_box
+{
+    width: 100%;
+    padding: 8px;
+    background-color: #3b5998;
+    box-sizing: border-box;
+}
+.right_click
+{
+    font-size: 15px;
+}
+.right_arrow_box
+{
+    width: 10%;
+    float: right;
+}
+.right_1 a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.right_heading2_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border-top: 2px dotted black;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.right_heading2
+{
+    font-size: 25px;
+    color: darkolivegreen;
+}
+.right_para1_box
+{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.right_para1
+{
+    text-align: justify;
+    color: indigo;
+}
+.right_bottom_box
+{
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.right_bottom
+{
+    color: whitesmoke;
+    padding-left: 2%;
+}
+.right_arrow2_box
+{
+    width: 10%;
+    float: right;
+}
+.right_2 a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.social_icon
+{
+    width: 100%;
+}
+.icon
+{
+    width: 21%;
+    padding: 10px;
+    background-color: burlywood;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 2%;
+    text-align: center;
+}
+.fb
+{
+    color: white;
+    font-size: 25px;
+}
+.facebook
+{
+    background-color: #3b5998;
+}
+.tt
+{
+    color: white;
+    font-size: 25px;
+}
+.twitter
+{
+    background-color: 	#1DA1F2;
+}
+.wt
+{
+    color: white;
+    font-size: 25px;
+}
+.whatsaap
+{
+    background-color: #25D366;
+}
+.ig
+{
+    color: #feda75;
+    font-size: 25px;
+}
+.instagram
+{
+    background-color: #405DE6;
+}
